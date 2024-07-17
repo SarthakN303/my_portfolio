@@ -1,12 +1,15 @@
-import React from "react";
-
+import React from 'react'
 
 const Footer = () => {
-
   const year = new Date().getFullYear()
   return (
-    <footer  className="bg-[#12141e] pt-12">
-      <div   data-aos="fade-up" data-aos-duration="1400" data-aos-delay="200" className="container">
+    <footer className="bg-[#12141e] pt-12">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1400"
+        data-aos-delay="200"
+        className="container"
+      >
         <div className="sm:flex items-center justify-between md:gap-8">
           <div className="w-full sm:w-1/2">
             <h2 className="text-[26px] leading-10 text-white font-[600] mb-5 md:text-[2rem]">
@@ -20,7 +23,8 @@ const Footer = () => {
           </div>
           <div className="w-full sm:w-1/2">
             <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-               Making the quality content for happy clients Contact me to know more. Write a Productive code with multiple functions.
+              Making the quality content for happy clients Contact me to know
+              more. Write a Productive code with multiple functions.
             </p>
 
             <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
@@ -30,34 +34,23 @@ const Footer = () => {
 
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center ">
                 <a
-                  href="#github"
+                  href="https://github.com/SarthakN303"
+                  target="_blank"
                   className="text-gray-300 font-[500] text-[18px]"
+                  rel="noreferrer"
                 >
                   <i className="ri-github-line"></i>
                 </a>
               </span>
+
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center ">
                 <a
-                  href="#youtube"
+                  href="https://www.linkedin.com/in/sarthak-naikwade-a09310246/"
+                  target="_blank"
                   className="text-gray-300 font-[500] text-[18px]"
+                  rel="noreferrer"
                 >
-                  <i className="ri-youtube-line"></i>
-                </a>
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center ">
-                <a
-                  href="#github"
-                  className="text-gray-300 font-[500] text-[18px]"
-                >
-                  <i className="ri-facebook-line"></i>
-                </a>
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center ">
-                <a
-                  href="#github"
-                  className="text-gray-300 font-[500] text-[18px]"
-                >
-                  <i className="ri-instagram-line"></i>
+                  <i className="ri-linkedin-line"></i>
                 </a>
               </span>
             </div>
@@ -109,13 +102,15 @@ const Footer = () => {
             </div>
 
             <div>
-              <p className="text-gray-400 text-[14px]">Copyright {year} developed by Sarthak - All right reserved</p>
+              <p className="text-gray-400 text-[14px]">
+                Copyright {year} developed by Sarthak - All right reserved
+              </p>
             </div>
           </div>
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

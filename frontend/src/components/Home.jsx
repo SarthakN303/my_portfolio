@@ -62,14 +62,7 @@ const Home = () => {
               <span className="text-white text-[15px] font-[600]">
                 Follow me:
               </span>
-              <span>
-                <a
-                  href="#youtube"
-                  className="text-white text-[15px] font-[600]"
-                >
-                  <i className="ri-youtube-line"></i>
-                </a>
-              </span>
+
               <span>
                 <a
                   rel=" noreferrer"
@@ -82,18 +75,12 @@ const Home = () => {
               </span>
               <span>
                 <a
-                  href="#facebook"
+                  href="https://www.linkedin.com/in/sarthak-naikwade-a09310246"
+                  target="_blank"
                   className="text-white text-[15px] font-[600]"
+                  rel="noreferrer"
                 >
-                  <i className="ri-facebook-line"></i>
-                </a>
-              </span>
-              <span>
-                <a
-                  href="#instagram"
-                  className="text-white text-[15px] font-[600]"
-                >
-                  <i className="ri-instagram-line"></i>
+                  <i className="ri-linkedin-line"></i>
                 </a>
               </span>
             </div>
